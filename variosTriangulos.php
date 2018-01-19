@@ -2,7 +2,7 @@
 
 $varios = $argv[1];
 
-if(! $varios > 0 ){
+if(! $varios > 0 || $varios === ""){
   echo "Favor enviar um numero maior que zero \n";
   return;
 }
